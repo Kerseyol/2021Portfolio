@@ -491,7 +491,7 @@ header::after {
   width: 80%;
   height: 450px;
   border-radius: 0 50px 50px 0;
-  background-image: url(/Assets/paint.jpg);
+  background-image: url(./Assets/paint.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -573,7 +573,7 @@ header::after {
   clip-path: circle(0px at center);
   border-radius: 20px;
   z-index: 10;
-  background-image: url(/Assets/email-pattern.png);
+  background-image: url(./Assets/email-pattern.png);
   background-repeat: repeat;
   color: black;
   width: 1400px;
@@ -762,7 +762,7 @@ header::after {
 }
 
 .github {
-  background-image: url(/Assets/github.png);
+  background-image: url(./Assets/github.png);
   background-size: contain;
   height: 60px;
   width: 60px;
@@ -773,7 +773,7 @@ header::after {
 
 .github:hover,
 .github:focus {
-  background-image: url(/Assets/github-after.png);
+  background-image: url(./Assets/github-after.png);
   background-size: contain;
   height: 60px;
   width: 60px;
@@ -784,7 +784,7 @@ header::after {
 }
 
 .linkedin {
-  background-image: url(/Assets/linkedin.png);
+  background-image: url(./Assets/linkedin.png);
   background-size: contain;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #00c7fa;
@@ -795,7 +795,7 @@ header::after {
 
 .linkedin:hover,
 .linkedin:focus {
-  background-image: url(/Assets/linkedin-after.png);
+  background-image: url(./Assets/linkedin-after.png);
   background-size: contain;
   height: 60px;
   width: 60px;
@@ -805,7 +805,7 @@ header::after {
 }
 
 .twitter {
-  background-image: url(/Assets/twitter-purple.png);
+  background-image: url(./Assets/twitter-purple.png);
   background-size: contain;
   height: 60px;
   width: 60px;
@@ -815,7 +815,7 @@ header::after {
 
 .twitter:hover,
 .twitter:focus {
-  background-image: url(/Assets/twitter-after.png);
+  background-image: url(./Assets/twitter-after.png);
   background-size: contain;
   height: 60px;
   width: 60px;
@@ -1130,69 +1130,69 @@ header::after {
 }
 
 .icon1 {
-  background-image: url(/Assets/html5.png);
+  background-image: url(./Assets/html5.png);
 }
 
 .icon2 {
-  background-image: url(/Assets/css3.svg);
+  background-image: url(./Assets/css3.svg);
 }
 
 .icon3 {
-  background-image: url(/Assets/javascript.svg);
+  background-image: url(./Assets/javascript.svg);
 }
 
 .icon4 {
-  background-image: url(/Assets/sass.svg);
+  background-image: url(./Assets/sass.svg);
 }
 
 .icon5 {
-  background-image: url(/Assets/react.svg);
+  background-image: url(./Assets/react.svg);
 }
 
 .icon6 {
-  background-image: url(/Assets/responsive.png);
+  background-image: url(./Assets/responsive.png);
 }
 
 .icon7 {
-  background-image: url(/Assets/visual.svg);
+  background-image: url(./Assets/visual.svg);
 }
 
 .icon8 {
-  background-image: url(/Assets/accessibility.png);
+  background-image: url(./Assets/accessibility.png);
 }
 
 .icon9 {
-  background-image: url(/Assets/firebase.png);
+  background-image: url(./Assets/firebase.png);
 }
 
 .icon10 {
-  background-image: url(/Assets/api.svg);
+  background-image: url(./Assets/api.svg);
 }
 
 .icon11 {
-  background-image: url(/Assets/command.png);
+  background-image: url(./Assets/command.png);
 }
 
 .icon12 {
-  background-image: url(/Assets/jquery.svg);
+  background-image: url(./Assets/jquery.svg);
 }
 
 .icon13 {
-  background-image: url(/Assets/git.svg);
+  background-image: url(./Assets/git.svg);
 }
 
 .icon14 {
-  background-image: url(/Assets/best.svg);
+  background-image: url(./Assets/best.svg);
 }
 
 .icon15 {
-  background-image: url(/Assets/wordpress.svg);
+  background-image: url(./Assets/wordpress.svg);
 }
 .icon16 {
-  background-image: url(/Assets/shopify.svg);
+  background-image: url(./Assets/shopify.svg);
 }
 .icon17 {
-  background-image: url(/Assets/php.svg);
+  background-image: url(./Assets/php.svg);
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~END OF ICONS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -1343,7 +1343,7 @@ header::after {
   position: relative;
 }
 .under-the-sea h2 {
-  background-image: url(/Assets/undersea.jpg);
+  background-image: url(./Assets/undersea.jpg);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
@@ -1363,7 +1363,7 @@ header::after {
   transition: all ease-in-out 200ms;
 }
 .rocket-vision h2 {
-  background-image: url(/Assets/rocket.jpg);
+  background-image: url(./Assets/rocket.jpg);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
@@ -1383,7 +1383,7 @@ header::after {
   position: relative;
 }
 .whale-map h2 {
-  background-image: url(/Assets/whale.jpg);
+  background-image: url(./Assets/whale.jpg);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
@@ -1405,7 +1405,7 @@ header::after {
 }
 
 .penfield h2 {
-  background-image: url(/Assets/bladerunner.jpg);
+  background-image: url(./Assets/bladerunner.jpg);
   background-size: cover;
   background-attachment: scroll;
   background-clip: text;
