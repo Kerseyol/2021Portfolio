@@ -534,6 +534,10 @@ header::after {
   font-size: 5rem;
   color: white;
   text-shadow: 3px 3px black;
+  margin: 0 auto;
+}
+.profile__right-text h1 {
+  margin: 0 auto;
 }
 
 .profile__right-text p {
@@ -1006,7 +1010,8 @@ header::after {
 }
 
 .skills-section {
-  padding-top: 0px;
+  padding-top: 50px;
+  min-height: 100vh;
 }
 
 .skills-title {
@@ -1050,6 +1055,7 @@ header::after {
   border-radius: 10px;
   width: 70%;
   height: 5px;
+  margin-top: 5%;
 }
 
 .skills-list {
@@ -1240,7 +1246,7 @@ header::after {
   color: #0075f2;
   transition: all 100ms ease-in-out;
   position: absolute;
-  bottom: 0;
+  bottom: -150px;
   right: 0;
   left: 0;
   margin-left: auto;
@@ -1650,6 +1656,18 @@ footer {
   }
 }
 
+@media (max-height: 900px) {
+  .skills-section {
+    padding-top: 50px;
+  }
+  .about-me-title {
+    margin-top: 50px;
+  }
+  #down-arrow2 {
+    bottom: -50px;
+  }
+}
+
 @media (max-width: 1400px) {
   .profile__right-text h1 {
     font-size: 3.5rem;
@@ -1723,8 +1741,8 @@ footer {
   .courses-title::after {
     right: 15%;
   }
-  .down-arrow2 {
-    bottom: -90px;
+  #down-arrow2 {
+    display: none;
   }
 }
 
@@ -1744,7 +1762,7 @@ footer {
   }
   .modal {
     max-height: 80vh;
-    top: 50%;
+    top: 55%;
   }
 
   .top-form label {
