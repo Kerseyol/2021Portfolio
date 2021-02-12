@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oliver Kersey's Portfolio</title>
+    <link rel="stylesheet" href="myscript.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"> 
+
+  </head>
+  <body>
+    <header id="header">
+    <nav class="site-nav">
+      <ul>
+        <li><a href="#" id="home-link"class="link">Home</a></li>
+        <li><a href="#" id="about-link" class="link">About</a></li>
+        <li><a href="#" id="projects-link" class="link">Projects</a></li>
+        <li><a href="#" data-modal-target="#modal" class="link">Contact</a></li>
+      </ul>
+      </nav>
+      <div class="menu-toggle">
+        <div class="hamburger"></div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="profile animate__animated animate__slideInLeft animate__slow">
+        <div class="profile__left">
+        </div>
+        <div class="profile__right">
+          <div class="profile__right-text">
+          <h1 class="noselect">Hello, I'm Oliver!</h1>
+          <button data-modal-target="#modal" class="contact-button noselect">Contact me!</button>
+          <div class="modal" id="modal">
+            <div class="contact-top">
+              <h2>Contact me</h2>
+              <button data-close-button class="close-button">&times;</button>
+            </div>
+            
+              <div class="contactForm">
+                  <form action="#" method="post" name="contact" id="contactFormParent" data-netlify="true">
+                    <div class="top-form">
+                      <label for="Name">
+                          <input type="text" id="Name" placeholder="Name" name="name" autocomplete="off">
+                      </label>
+                      <label for="email">
+                          <input type="email" id="email" placeholder="Email" name="email" autocomplete="off">
+                      </label>
+                    </div>
+                      <div class="bottom-form">
+                          <label for="Message">
+                              <textarea form="contactFormParent" id="Message" placeholder="Message" name="message" autocomplete="off"></textarea>
+                          </label>
+                          <button type="submit" method="post" class="submit" name="submit" id="submit">Send Message</button>
+                        </div>
+                  </form>
+              </div>
+          
+          </div>
+          <div id="overlay"></div>
+          <div class="social-media">
+            <a target="_blank" href="https://github.com/Kerseyol"><div tabindex="0" class="github"></div></a>
+            <a target="_blank" href="https://www.linkedin.com/in/oliver-kersey-14382172/"><div tabindex="0" class="linkedin"></div></a>
+            <a target="_blank" href="https://twitter.com/call_me_kersey"><div tabindex="0" class="twitter"></div></a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <i tabindex="0" id="down-arrow" class="far fa-caret-square-down down-arrow animate"></i>
+    </section>
+    <section class="skills-section"><h1 class="noselect about-me-title">About Me</h1>
+      <div class="about-flex">
+        <div class="about-flex-left animate__slideInLeft animate__slow">
+        <div class="about-me">
+          <img src="/Assets/earlycomputerpose.jpg" alt="Oliver at age 12 at his computer desk">
+          <p class="noselect flavour-text">Juno College grad, constantly working to improve my Web Dev skills and master Javascript and frameworks like React!</p>
+        </div>
+      <div class="skills-list">
+        <h2 class="skills-title">Skills</h2>
+        
+        <div class="skills">
+          <div class="icon1 icon noselect" title="HTML5"></div>
+          <div class="icon2 icon noselect" title="CSS3"></div>
+          <div class="icon3 icon noselect" title="JavaScript"></div>
+          <div class="icon4 icon noselect" title="SASS"></div>
+          <div class="icon5 icon noselect" title="React.js"></div>
+          <div class="icon6 icon noselect" title="Responsive Design"></div>
+          <div class="icon7 icon noselect" title="Visual Studio"></div>
+          <div class="icon8 icon noselect" title="Web Accessibility"></div>
+          <div class="icon9 icon noselect" title="Firebase"></div>
+          <div class="icon10 icon noselect" title="REST APIs"></div>
+          <div class="icon11 icon noselect" title="Command Line Interface"></div>
+          <div class="icon12 icon noselect" title="JQuery"></div>
+          <div class="icon13 icon noselect" title="Git Flow"></div>
+          <div class="icon14 icon noselect" title="SEO Best Practices"></div>
+          <div class="icon15 icon noselect" title="WordPress Theme Development"></div>
+          <div class="icon16 icon noselect" title="Shopify Theme Development"></div>
+          <div class="icon17 icon noselect" title="PHP"></div>
+        </div>
+    </div>
+  </div>
+    <div class="courses">
+      
+      <div class="courses-inner">
+        <h2 class="courses-title">Courses</h2>
+        <div class="course-list">
+      <div class="course1 course">
+        <h3 class="course-provider">Juno College</h3>
+        <h2 class="course-symbol">&#8883</h2>
+        <h3 class="course-content">Web Dev 101</h3>
+  </div>
+      <div class="course2 course">
+        <h3 class="course-provider">Juno College</h3>
+        <h2 class="course-symbol">&#8883</h2>
+        <h3 class="course-content">Web Development Immersive BootCamp</h3>
+  </div>
+      <div class="course3 course">
+        <h3 class="course-provider">Juno College</h3>
+        <h2 class="course-symbol">&#8883</h2>
+        <h3 class="course-content">Shopify & Wordpress Custom Themes Course</h3>  
+  </div>
+      <div class="course4 course">
+        <h3 class="course-provider">Wes Bos</h3>
+        <h2 class="course-symbol">&#8883</h2>
+        <h3 class="course-content">ES6 For Everyone</h3> 
+  </div>
+  <div class="course5 course">
+    <h3 class="course-provider">Wes Bos</h3>
+    <h2 class="course-symbol">&#8883</h2>
+    <h3 class="course-content">React For Beginners</h3> 
+  </div>
+  <div class="course6 course">
+    <h3 class="course-provider">Udemy</h3>
+    <h2 class="course-symbol">&#8883</h2>
+    <h3 class="course-content">The Complete Javascript Course</h3> 
+  </div>
+</div>
+</div>
+      
+</div>
+<i tabindex="0" id="down-arrow2" class="far fa-caret-square-down down-arrow2 animate2 hide-buttons"></i>
+    </div>
+  </div>
+</section>
+    <section class="projects"><h1 class="noselect projects-title-top">Projects</h1>
+      <div class="responsive-sites">
+        <h2 class="projects-title noselect">Responsive Sites</h2>
+          <div tabindex="0" class="under-the-sea project"><h2 class="noselect under-the-sea-nameface">Under the Sea</h2>
+            <div class="under-the-sea__modal">
+              <p class="noselect">Under the Sea is a responsive web site demo with an underwater theme.</p>
+              <a href="https://kerseyol.github.io/Under-the-Sea/" target="_blank" class="noselect modal-button1">Go to site</a>
+            </div></div>
+          <div tabindex="0" class="rocket-vision project"><h2 class="noselect">Rocket Vision</h2>
+            <div class="rocket-vision__modal">
+              <p class="noselect">Rocket Vision is a WordPress site converted into a static site for this demo.</p>
+              <a href="https://kerseyol.github.io/RocketVisionStaticWordpress/" target="_blank" class="noselect modal-button2">Go to site</a>
+            </div></div>
+    </div>
+    <div class="applications">
+      <h2 class="projects-title noselect">Applications</h2>
+      <div tabindex="0" class="whale-map project"><h2 class="noselect">Whale Map Hotline</h2>
+        <div class="whale-map__modal">
+          <p class="noselect">The Whale Map app is a React.js application using the Whale Map Hotline API, Leaflet & HERE Maps APIs.</p>
+          <a href="https://kerseyol.github.io/whaleMap/" target="_blank" class="noselect modal-button3">Go to site</a>
+        </div></div>
+      <div tabindex="0" class="penfield project"><h2 class="noselect">Penfield Mood Organ</h2>
+        <div class="penfield__modal">
+          <p class="noselect">The Penfield Mood Organ App is a JQuery project using the IMGUR API.</p>
+          <a href="https://tyrellcorporation.github.io/Project4Redux/" target="_blank" class="noselect modal-button4">Go to site</a>
+        </div></div>
+    </div>
+    <i id="up-arrow" class="fas fa-angle-double-up up-arrow"></i>
+    </section>
+
+    <footer><p class="noselect">Copyright 2020</p></footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+      crossorigin="anonymous"
+    ></script>
+    <script
+			  src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+			  integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+			  crossorigin="anonymous"></script>
+    <script src="jstime.js"></script>
+   
+  </body>
+</html>
