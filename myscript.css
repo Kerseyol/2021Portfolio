@@ -1762,7 +1762,7 @@ footer {
   }
   .modal {
     max-height: 80vh;
-    top: 55%;
+    top: 50%;
   }
 
   .top-form label {
