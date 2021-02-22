@@ -228,6 +228,7 @@ html {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  background-color: white;
 }
 
 *,
@@ -479,7 +480,6 @@ header::after {
 
 .hero {
   min-height: calc(100vh - 3rem);
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -491,10 +491,11 @@ header::after {
   width: 80%;
   height: 450px;
   border-radius: 0 50px 50px 0;
-  background-image: url(./Assets/paint.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: whitesmoke;
+  background-image: url(/Assets/white_wall.png);
+  background-repeat: repeat;
+  border: 1px solid var(--accent3);
+  border-left: none;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -532,8 +533,8 @@ header::after {
   font-family: var(--font1);
   text-transform: uppercase;
   font-size: 5rem;
-  color: white;
-  text-shadow: 3px 3px black;
+  color: var(--primary1);
+  text-shadow: 3px 3px var(--accent2);
   margin: 0 auto;
 }
 .profile__right-text h1 {
@@ -1279,7 +1280,6 @@ header::after {
 .projects {
   margin-top: 100px;
   min-height: 600px;
-  background-color: white;
   position: relative;
 }
 
