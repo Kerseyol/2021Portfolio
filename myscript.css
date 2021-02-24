@@ -491,9 +491,7 @@ header::after {
   width: 80%;
   height: 450px;
   border-radius: 0 50px 50px 0;
-  background-color: whitesmoke;
-  background-image: url(/Assets/white_wall.png);
-  background-repeat: repeat;
+  background-color: white;
   border: 1px solid var(--accent3);
   border-left: none;
   display: flex;
@@ -503,6 +501,7 @@ header::after {
   animation: slideInLeft;
   animation-duration: 3s;
   animation-iteration-count: 1;
+  background-color: #7dc95e;
 }
 
 .profile__right {
@@ -515,6 +514,7 @@ header::after {
 }
 
 .profile__right-text {
+  border-radius: 50px;
   height: 400px;
   width: 100%;
   display: flex;
@@ -533,7 +533,7 @@ header::after {
   font-family: var(--font1);
   text-transform: uppercase;
   font-size: 5rem;
-  color: var(--primary1);
+  color: white;
   text-shadow: 3px 3px var(--accent2);
   margin: 0 auto;
 }
